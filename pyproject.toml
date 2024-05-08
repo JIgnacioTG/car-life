@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "car-life"
+version = "2024.05.06"
+description = "Application that you can save every detail of your car data, like services, gas history, etc."
+authors = ["José Ignacio Trava García <travag97@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
